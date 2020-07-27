@@ -1,0 +1,128 @@
+body{
+    background-image: linear-gradient(to right, rgb(250, 46, 233), rgba(54, 5, 110, 0.904));
+}
+
+.container{
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* border: 1px solid black; */
+    /* background-color: #dddddd; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.forms{
+    flex: 20%;
+    /* border: 1px solid black; */
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#formClass{
+    flex: 100%;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.text{
+   position: relative;
+   width: 100%;
+   font-size: 1.7rem;
+}
+
+
+.numbersDiv{
+    flex: 080%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+}
+
+#tableId{
+    flex: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tableRow{
+    flex: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tableCell{
+    flex: 20%;
+    /* border: 1px solid black; */
+    margin: 3px;
+    border-radius: 10%;
+    
+}
+
+#tableC11, #tableC12 , #tableC13, #tableC14,
+#tableC21, #tableC22 , #tableC23, #tableC24,
+#tableC31, #tableC32 , #tableC33, #tableC34,
+#tableC41, #tableC42 , #tableC43 ,#tableC44,
+#tableC51, #tableC52{
+    display: flex;
+    flex-direction: row;
+}
+
+#table51 , #table52{
+    flex: 50%;
+}
+
+#cButton, #clearButton, #divide, #multiply,
+#seven, #eight, #nine, #minus,
+#four, #five, #six, #plus,
+#one, #two, #three,#dot,
+#zero, #equals{
+    flex: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    /* background-color: teal; */
+    color: white;
+    background-color: rgb(146, 143, 143);
+}
+
+#cButton:hover, #clearButton:hover, #divide:hover, #multiply:hover,
+#seven:hover, #eight:hover, #nine:hover, #minus:hover,
+#four:hover, #five:hover, #six:hover, #plus:hover,
+#one:hover, #two:hover, #three:hover,#modulus:hover,
+#zero:hover, #equals:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 1019px) {
+    .container {
+      height: 60%;
+      width: 30%;
+    }
+  }
+
+  @media only screen and (max-width: 679px) {
+    .container {
+      height: 60%;
+      width: 40%;
+    }
+  }
+
+  @media only screen and (max-width: 509px) {
+    .container {
+      height: 65%;
+      width: 45%;
+    }
+  }
